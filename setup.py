@@ -38,6 +38,6 @@ setup(
         'Programming Language :: Python :: 3.5',
         'Programming Language :: Python :: 3.6',
     ],
-    url='https://github.com/',
+    url='https://github.com/cathy0237/pdxSPA.git',
 
 )
