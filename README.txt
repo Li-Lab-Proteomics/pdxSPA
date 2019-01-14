@@ -6,7 +6,7 @@ pdxSPA includes three algorithm for quantifying the MS data from the PDX models,
 This readme file covers the following topics:
 ---------------------------------------------
 1. Installation
-git https://github.com/cathy0237/pdxSPA.git
+git clone https://github.com/cathy0237/pdxSPA.git
 cd pdxSPA/
 pip install .
 
