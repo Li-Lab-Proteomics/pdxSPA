@@ -14,11 +14,11 @@ pip install .
 
 
 ** 2.Running pxdSPA
+#+BEGIN_SRC 
 Usage: pdxSPA [OPTIONS]
 
-#+BEGIN_SRC bash
 Options:
-  -i, --input_file PATH  Pass in the evidence file after quantifile PDX samples by MaxQuant.
+  -i, --input_filebash PATH  Pass in the evidence file after quantifile PDX samples by MaxQuant.
   -o, --outdir PATH      Pass in the output directory.  [default: .]
   -m, --method INTEGER   Choose methods between 0 (SPA), 1 (X-SPA) and 2 (S-SPA).  [default: 0]
   --version              Show the version and exit.
