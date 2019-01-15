@@ -26,7 +26,7 @@ Runs pdxSPA on the evidence file from MaxQuant. SPA was used for shared-peptide 
 pdxSPA -i evidence.txt -m 0
 
 
-**3.pdxSPA output
+** 3.pdxSPA output
 The output gives the following result files. 
 Summary file - gives the summary on peptides allocation and ratio. 
 Expression file - gives the HUMAN protein expression in PDX by using pdxSPA.
