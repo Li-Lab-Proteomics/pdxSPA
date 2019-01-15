@@ -13,7 +13,7 @@ pip install .
 
 
 ** 2.Running pxdSPA
-#+BEGIN_SRC 
+#+BEGIN_SRC bash
 Usage: pdxSPA [OPTIONS]
 
 Options:
@@ -34,9 +34,9 @@ pdxSPA -i evidence.txt -m 0
 ** 3.pdxSPA output
 The output gives the following result files. 
 
-Summary file - gives the summary on peptides allocation and ratio. 
+=Summary file= - gives the summary on peptides allocation and ratio. 
 
-Expression file - gives the HUMAN protein expression in PDX by using pdxSPA.
+=Expression file= - gives the HUMAN protein expression in PDX by using pdxSPA.
 
 
 
