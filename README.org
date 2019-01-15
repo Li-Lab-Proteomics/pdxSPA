@@ -6,24 +6,30 @@ pdxSPA includes three algorithm for quantifying the MS data from the PDX models,
 This readme file covers the following topics:
 ---------------------------------------------
 ** 1. Installation
+#+BEGIN_SRC bash
 git clone https://github.com/cathy0237/pdxSPA.git
 cd pdxSPA/
 pip install .
+#+END_SRC
 
 
 ** 2.Running pxdSPA
 Usage: pdxSPA [OPTIONS]
 
+#+BEGIN_SRC bash
 Options:
   -i, --input_file PATH  Pass in the evidence file after quantifile PDX samples by MaxQuant.
   -o, --outdir PATH      Pass in the output directory.  [default: .]
   -m, --method INTEGER   Choose methods between 0 (SPA), 1 (X-SPA) and 2 (S-SPA).  [default: 0]
   --version              Show the version and exit.
   -h, --help             Show this message and exit.
+#+END_SRC
 
 Example:
 Runs pdxSPA on the evidence file from MaxQuant. SPA was used for shared-peptide allocation.
+#+BEGIN_SRC bash
 pdxSPA -i evidence.txt -m 0
+#+END_SRC
 
 
 ** 3.pdxSPA output
