@@ -7,9 +7,6 @@ def filePreTreat(df):
     #filter reverse and contaminant
     df = df[(df["Reverse"] != "+") & (df["Potential contaminant"] != "+")]
     
-    df["PEP"].fillna(1000, inplace=True)
-    df = df[df["PEP"] <= 0.01]
-    
     df = df.sort_values("Score", ascending=0)    
     df.drop_duplicates(["Raw file", "Fraction", "Experiment", "MS/MS Scan Number"], \
                        inplace = True)
