@@ -21,7 +21,7 @@ setup(
         'numpy',
         'pandas',
     ],
-    https://github.com/cathy0237/pdxSPA.git
+
     entry_points="""
     [console_scripts]
     pdxSPA=pdxSPA.cli:main
