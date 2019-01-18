@@ -6,7 +6,7 @@ This readme file covers the following topics:
 ---------------------------------------------
 ** 1. Installation
 #+BEGIN_SRC bash
-git clone https://github.com/cathy0237/pdxSPA.git
+git clone https://github.com/Li-Lab-Proteomics/pdxSPA.git
 cd pdxSPA/
 pip install .
 #+END_SRC
