@@ -21,7 +21,7 @@ setup(
         'numpy',
         'pandas',
     ],
-    
+    https://github.com/cathy0237/pdxSPA.git
     entry_points="""
     [console_scripts]
     pdxSPA=pdxSPA.cli:main
@@ -38,6 +38,6 @@ setup(
         'Programming Language :: Python :: 3.5',
         'Programming Language :: Python :: 3.6',
     ],
-    url='https://github.com/cathy0237/pdxSPA.git',
+    url='https://github.com/Li-Lab-Proteomics/pdxSPA/',
 
 )
